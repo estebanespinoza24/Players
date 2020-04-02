@@ -1,5 +1,51 @@
 @import "bootstrap";
 
+header {
+  border-top: 9px solid black;
+}
+
+hr {
+  clear:both;
+}
+
 .clear {
   clear: both;
 }
+
+.slogan {
+font-family: Impact,Haettenschweiler,Franklin Gothic Bold,Charcoal,Helvetica Inserat,Bitstream Vera Sans Bold,Arial Black,sans serif;
+padding-top: 26px;
+ 
+}
+
+.links {
+  font-family: Impact,Haettenschweiler,Franklin Gothic Bold,Charcoal,Helvetica Inserat,Bitstream Vera Sans Bold,Arial Black,sans serif;
+  padding-top: 26px;
+}
+
+.links a {
+  color: red;
+  font-size: 25px;
+  border-bottom: 1px solid black;
+}
+
+
+.circle {
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+    border-radius: 100%;
+    background: black;
+    border: 5px solid red;
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px;
+    text-align: center;
+    color: #FFF;
+    font-size: 10px;
+    line-height: 16px;
+    cursor: pointer;
+    transform: rotate(11deg);
+    -ms-transform: rotate(11deg); /* IE 9 */
+    -webkit-transform: rotate(11deg); /* Opera, Chrome, and Safari */
+  }
