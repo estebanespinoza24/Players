@@ -10,6 +10,21 @@
   </head>
 
   <body>
+    <header class="row">
+      <div class="col-3">
+        LOGO
+      </div>
+      <div class="col-4">
+        Enter your favorite players with the correct team information.
+      </div>
+      <div class="col-5">
+        <%= link_to 'Add Player', '#' %>
+        <%= link_to 'About', '#' %>
+      </div>
+    </header>
+
+    <br class="clear" />
+
     <%= yield %>
   </body>
 </html>
