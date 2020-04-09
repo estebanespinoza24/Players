@@ -1,5 +1,17 @@
 @import "bootstrap";
 
+h1 {
+  font-family: 'helsinkiregular';
+  font-weight: bold;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: 'capture_itregular';
+  font-size: 38px;
+  text-decoration: underline;
+}
+
 header {
   border-top: 9px solid black;
 }
@@ -19,14 +31,14 @@ padding-top: 26px;
 }
 
 .links {
-  font-family: Impact,Haettenschweiler,Franklin Gothic Bold,Charcoal,Helvetica Inserat,Bitstream Vera Sans Bold,Arial Black,sans serif;
+  font-family: 'capture_itregular';
   padding-top: 26px;
 }
 
 .links a {
   color: red;
   font-size: 25px;
-  border-bottom: 1px solid black;
+  border-bottom: 3px solid black;
 }
 
 
