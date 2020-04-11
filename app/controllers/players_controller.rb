@@ -15,6 +15,9 @@ class PlayersController < ApplicationController
     redirect_to root_path
   end
 
+  def about
+  end
+
   private
 
   def player_params
