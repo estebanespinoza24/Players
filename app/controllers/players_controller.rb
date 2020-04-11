@@ -8,7 +8,10 @@ class PlayersController < ApplicationController
   end
 
   def create
-    Player.create(player_params)
+    @player = Player.create(player_params)
+    if @player.invalid?
+      flash[:error] = '<strong>Could Not Save</strong> the data you entered is invalid.'
+    end
     redirect_to root_path
   end
 
