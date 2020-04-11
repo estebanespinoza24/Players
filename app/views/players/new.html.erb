@@ -1,0 +1,7 @@
+<h1>Add New Player Here</h1>
+<%= simple_form_for @player do |f| %>
+  <%= f.input :name %>
+  <%= f.input :team %>
+  <br />
+  <%= f.submit 'Add', class:'btn btn-outline-danger' %>
+<% end %>

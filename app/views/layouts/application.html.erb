@@ -12,20 +12,22 @@
   <body>
     <header class="row">
       <div class="col-3">
-        <div class="circle">
-          <br />
-          Best
-          <br />
-          Soccer
-          <br />
-          Players
-        </div>
+        <%= link_to root_path, class: 'logo' do %>
+          <div class="circle">
+            <br />
+            Best
+            <br />
+            Soccer
+            <br />
+            Players
+          </div>
+        <% end %>
       </div>
       <div class="col-4 slogan">
         Enter your favorite players with the correct team information.
       </div>
       <div class="col-5 links">
-        <%= link_to 'Add Player', '#' %>
+        <%= link_to 'Add Player', new_player_path %>
         <%= link_to 'About', '#' %>
       </div>
     </header>
@@ -42,7 +44,7 @@
       <div class="container">
         <div class="row">
           <p class="col-9 text-muted">
-            <%= link_to "Need More Players", "#" %>
+            <%= link_to "Need More Players", new_player_path %>
           </p>
         </div>
       </div>
