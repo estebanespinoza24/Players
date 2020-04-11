@@ -34,6 +34,18 @@
 
     <br class="clear" />
 
-    <%= yield %>
+    <div class="container">
+      <%= yield %>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <p class="col-9 text-muted">
+            <%= link_to "Need More Players", "#" %>
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
